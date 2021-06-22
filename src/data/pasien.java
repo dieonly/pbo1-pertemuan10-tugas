@@ -52,4 +52,31 @@ public class pasien {
         System.out.println("3. Faskes Tingkat III");
         System.out.println("");
     }
+
+    //Deklarasi 3 Constructor
+
+    public pasien() {
+    }
+
+    public pasien(String nama, String nopasien,
+                  String alamat, String notelp) {
+        this.nama = nama;
+        this.nopasien = nopasien;
+        this.alamat = alamat;
+        this.notelp = notelp;
+    }
+
+    public pasien(String nama, String nopasien,
+                  String alamat, String notelp,
+                  String status, String poliklinik,
+                  String faskes, String carabayar) {
+        this.nama = nama;
+        this.nopasien = nopasien;
+        this.alamat = alamat;
+        this.notelp = notelp;
+        this.status = status;
+        this.poliklinik = poliklinik;
+        this.faskes = faskes;
+        this.carabayar = carabayar;
+    }
 }
