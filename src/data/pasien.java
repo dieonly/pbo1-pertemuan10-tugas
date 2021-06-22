@@ -1,5 +1,7 @@
 package data;
 
+import java.sql.SQLOutput;
+
 //Parent Class
 public class pasien {
     //Deklarasi 8 Atribut
@@ -56,6 +58,10 @@ public class pasien {
     //Deklarasi 3 Constructor
 
     public pasien() {
+        System.out.println();
+        System.out.println("Data Kosong");
+        System.out.println("Anda Belum Terdaftar");
+        System.out.println("--------------------------");
     }
 
     public pasien(String nama, String nopasien,
