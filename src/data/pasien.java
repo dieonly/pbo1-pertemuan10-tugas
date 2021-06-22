@@ -5,14 +5,14 @@ import java.sql.SQLOutput;
 //Parent Class
 public class pasien {
     //Deklarasi 8 Atribut
-    public String nama;
-    public String nopasien;
-    public String alamat;
-    public String notelp;
-    public String status;
-    public String poliklinik;
-    public String faskes;
-    public String carabayar;
+    private String nama;
+    private String nopasien;
+    private String alamat;
+    private String notelp;
+    private String status;
+    private String poliklinik;
+    private String faskes;
+    private String carabayar;
 
     //Deklarasi 4 Method
     public void daftar(){
@@ -83,6 +83,72 @@ public class pasien {
         this.status = status;
         this.poliklinik = poliklinik;
         this.faskes = faskes;
+        this.carabayar = carabayar;
+    }
+
+    //Getter&Setter Seluruh Atribut
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getNopasien() {
+        return nopasien;
+    }
+
+    public void setNopasien(String nopasien) {
+        this.nopasien = nopasien;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public String getNotelp() {
+        return notelp;
+    }
+
+    public void setNotelp(String notelp) {
+        this.notelp = notelp;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getPoliklinik() {
+        return poliklinik;
+    }
+
+    public void setPoliklinik(String poliklinik) {
+        this.poliklinik = poliklinik;
+    }
+
+    public String getFaskes() {
+        return faskes;
+    }
+
+    public void setFaskes(String faskes) {
+        this.faskes = faskes;
+    }
+
+    public String getCarabayar() {
+        return carabayar;
+    }
+
+    public void setCarabayar(String carabayar) {
         this.carabayar = carabayar;
     }
 }
