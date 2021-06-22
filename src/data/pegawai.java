@@ -49,4 +49,21 @@ public class pegawai extends pasien {
     public void setShift(String shift) {
         this.shift = shift;
     }
+
+    //Overriding
+    public void kontakadmin(){
+        System.out.println("++++++++++++++++++++++++++++++++++++++");
+        System.out.println("Ini Adalah Kontak Admin");
+        System.out.println("No. telp : (0511)-0223-9879");
+        System.out.println("");
+    }
+    public void terdaftar(){
+        System.out.println("++++++++++++++++++++++++++++++++++++++");
+        System.out.println("Ini Adalah Fasilitas Kesehatan Yang tersedia");
+        System.out.println("Tingkat Faskes yang tersedia :");
+        System.out.println("1. Faskes Tingkat I");
+        System.out.println("2. Faskes Tingkat II");
+        System.out.println("3. Faskes Tingkat III");
+        System.out.println("");
+    }
 }
