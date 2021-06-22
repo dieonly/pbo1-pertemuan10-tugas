@@ -23,4 +23,30 @@ public class pegawai extends pasien {
         System.out.println("Shift Pegawai :" +shift);
         System.out.println("");
     }
+
+    //Getter&Setter Seluruh Atribut
+
+    public String getNamapeg() {
+        return namapeg;
+    }
+
+    public void setNamapeg(String namapeg) {
+        this.namapeg = namapeg;
+    }
+
+    public String getNopegawai() {
+        return nopegawai;
+    }
+
+    public void setNopegawai(String nopegawai) {
+        this.nopegawai = nopegawai;
+    }
+
+    public String getShift() {
+        return shift;
+    }
+
+    public void setShift(String shift) {
+        this.shift = shift;
+    }
 }
